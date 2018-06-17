@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96460F811EB07E1800D20A6C /* NTAuthorize in Resources */ = {isa = PBXBuildFile; fileRef = 96460F801EB07E1800D20A6C /* NTAuthorize */; };
+		964D72BE1E6EF59F00E25611 /* GameAwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 964D72BD1E6EF59F00E25611 /* GameAwardView.m */; };
+		96A9CF921DB8663600C95448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A9CF911DB8663600C95448 /* main.m */; };
+		96A9CF951DB8663600C95448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A9CF941DB8663600C95448 /* AppDelegate.m */; };
+		96A9CF981DB8663600C95448 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A9CF971DB8663600C95448 /* ViewController.m */; };
+		96A9CF9B1DB8663600C95448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A9CF991DB8663600C95448 /* Main.storyboard */; };
+		96A9CF9D1DB8663600C95448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A9CF9C1DB8663600C95448 /* Assets.xcassets */; };
+		96A9CFA01DB8663600C95448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A9CF9E1DB8663600C95448 /* LaunchScreen.storyboard */; };
+		96AC7D901DB8971900C8A2BB /* QKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC7D8F1DB8971900C8A2BB /* QKeyboard.m */; };
+		96B763831EC43C3100DCB698 /* QUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B763821EC43C3100DCB698 /* QUIButton.m */; };
+		96E471381E6D4F1E009DC6AD /* NTKeyboardPublicMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E471371E6D4F1E009DC6AD /* NTKeyboardPublicMethods.m */; };
+		96E471471E6D4F59009DC6AD /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E4713C1E6D4F59009DC6AD /* GTMBase64.m */; };
+		96E471481E6D4F59009DC6AD /* QMUIGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E471411E6D4F59009DC6AD /* QMUIGridView.m */; };
+		96E471491E6D4F59009DC6AD /* CALayer+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E471441E6D4F59009DC6AD /* CALayer+QMUI.m */; };
+		96E4714A1E6D4F59009DC6AD /* UIImage+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E471461E6D4F59009DC6AD /* UIImage+QMUI.m */; };
+		96E4714C1E6D5167009DC6AD /* NTAuthorize in Resources */ = {isa = PBXBuildFile; fileRef = 96E4714B1E6D5167009DC6AD /* NTAuthorize */; };
+		96E4714E1E6D5185009DC6AD /* NTKeyboardBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96E4714D1E6D5185009DC6AD /* NTKeyboardBundle.bundle */; };
+		A42D0D5FE079A1966179480A /* libPods-QKeyboardExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9513E0E967122FB18F0B04 /* libPods-QKeyboardExample.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96460F801EB07E1800D20A6C /* NTAuthorize */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NTAuthorize; sourceTree = SOURCE_ROOT; };
+		964D72BC1E6EF59F00E25611 /* GameAwardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameAwardView.h; sourceTree = "<group>"; };
+		964D72BD1E6EF59F00E25611 /* GameAwardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameAwardView.m; sourceTree = "<group>"; };
+		96A9CF8D1DB8663600C95448 /* QKeyboardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKeyboardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A9CF911DB8663600C95448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96A9CF931DB8663600C95448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96A9CF941DB8663600C95448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96A9CF961DB8663600C95448 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96A9CF971DB8663600C95448 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96A9CF9A1DB8663600C95448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96A9CF9C1DB8663600C95448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96A9CF9F1DB8663600C95448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96A9CFA11DB8663600C95448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96AC7D8E1DB8971900C8A2BB /* QKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKeyboard.h; sourceTree = "<group>"; };
+		96AC7D8F1DB8971900C8A2BB /* QKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKeyboard.m; sourceTree = "<group>"; };
+		96B763811EC43C3100DCB698 /* QUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUIButton.h; sourceTree = "<group>"; };
+		96B763821EC43C3100DCB698 /* QUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUIButton.m; sourceTree = "<group>"; };
+		96E471361E6D4F1E009DC6AD /* NTKeyboardPublicMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTKeyboardPublicMethods.h; sourceTree = "<group>"; };
+		96E471371E6D4F1E009DC6AD /* NTKeyboardPublicMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTKeyboardPublicMethods.m; sourceTree = "<group>"; };
+		96E4713B1E6D4F59009DC6AD /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		96E4713C1E6D4F59009DC6AD /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		96E4713D1E6D4F59009DC6AD /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		96E471401E6D4F59009DC6AD /* QMUIGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIGridView.h; sourceTree = "<group>"; };
+		96E471411E6D4F59009DC6AD /* QMUIGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIGridView.m; sourceTree = "<group>"; };
+		96E471431E6D4F59009DC6AD /* CALayer+QMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+QMUI.h"; sourceTree = "<group>"; };
+		96E471441E6D4F59009DC6AD /* CALayer+QMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+QMUI.m"; sourceTree = "<group>"; };
+		96E471451E6D4F59009DC6AD /* UIImage+QMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QMUI.h"; sourceTree = "<group>"; };
+		96E471461E6D4F59009DC6AD /* UIImage+QMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QMUI.m"; sourceTree = "<group>"; };
+		96E4714B1E6D5167009DC6AD /* NTAuthorize */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NTAuthorize; sourceTree = "<group>"; };
+		96E4714D1E6D5185009DC6AD /* NTKeyboardBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NTKeyboardBundle.bundle; sourceTree = "<group>"; };
+		B9D36E5FF7258C711C1C3437 /* Pods-QKeyboardExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKeyboardExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKeyboardExample/Pods-QKeyboardExample.release.xcconfig"; sourceTree = "<group>"; };
+		BD9513E0E967122FB18F0B04 /* libPods-QKeyboardExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QKeyboardExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF28F011682A04ED12AF334 /* Pods-QKeyboardExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKeyboardExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKeyboardExample/Pods-QKeyboardExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96A9CF8A1DB8663600C95448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42D0D5FE079A1966179480A /* libPods-QKeyboardExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96A9CF841DB8663600C95448 = {
+			isa = PBXGroup;
+			children = (
+				96A9CF8F1DB8663600C95448 /* QKeyboardExample */,
+				96A9CF8E1DB8663600C95448 /* Products */,
+				D06FD49E782F07D343BBEFC6 /* Pods */,
+				C7CF19D0C136459D9FA171AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96A9CF8E1DB8663600C95448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96A9CF8D1DB8663600C95448 /* QKeyboardExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96A9CF8F1DB8663600C95448 /* QKeyboardExample */ = {
+			isa = PBXGroup;
+			children = (
+				96460F801EB07E1800D20A6C /* NTAuthorize */,
+				96AC7D8D1DB8966000C8A2BB /* QKeyboard */,
+				96A9CF931DB8663600C95448 /* AppDelegate.h */,
+				96A9CF941DB8663600C95448 /* AppDelegate.m */,
+				96A9CF961DB8663600C95448 /* ViewController.h */,
+				96A9CF971DB8663600C95448 /* ViewController.m */,
+				96A9CF991DB8663600C95448 /* Main.storyboard */,
+				96A9CF9C1DB8663600C95448 /* Assets.xcassets */,
+				96A9CF9E1DB8663600C95448 /* LaunchScreen.storyboard */,
+				96A9CFA11DB8663600C95448 /* Info.plist */,
+				96A9CF901DB8663600C95448 /* Supporting Files */,
+			);
+			path = QKeyboardExample;
+			sourceTree = "<group>";
+		};
+		96A9CF901DB8663600C95448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96E4714D1E6D5185009DC6AD /* NTKeyboardBundle.bundle */,
+				96E4714B1E6D5167009DC6AD /* NTAuthorize */,
+				96A9CF911DB8663600C95448 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96AC7D8D1DB8966000C8A2BB /* QKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				964D72BC1E6EF59F00E25611 /* GameAwardView.h */,
+				964D72BD1E6EF59F00E25611 /* GameAwardView.m */,
+				96E471391E6D4F59009DC6AD /* OtherClasslib */,
+				96E471361E6D4F1E009DC6AD /* NTKeyboardPublicMethods.h */,
+				96E471371E6D4F1E009DC6AD /* NTKeyboardPublicMethods.m */,
+				96AC7D8E1DB8971900C8A2BB /* QKeyboard.h */,
+				96AC7D8F1DB8971900C8A2BB /* QKeyboard.m */,
+				96B763811EC43C3100DCB698 /* QUIButton.h */,
+				96B763821EC43C3100DCB698 /* QUIButton.m */,
+			);
+			path = QKeyboard;
+			sourceTree = "<group>";
+		};
+		96E471391E6D4F59009DC6AD /* OtherClasslib */ = {
+			isa = PBXGroup;
+			children = (
+				96E4713A1E6D4F59009DC6AD /* GTMBase64 */,
+				96E4713E1E6D4F59009DC6AD /* QMUIKit */,
+			);
+			path = OtherClasslib;
+			sourceTree = "<group>";
+		};
+		96E4713A1E6D4F59009DC6AD /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				96E4713B1E6D4F59009DC6AD /* GTMBase64.h */,
+				96E4713C1E6D4F59009DC6AD /* GTMBase64.m */,
+				96E4713D1E6D4F59009DC6AD /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		96E4713E1E6D4F59009DC6AD /* QMUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				96E4713F1E6D4F59009DC6AD /* UIComponents */,
+				96E471421E6D4F59009DC6AD /* UIKitExtensions */,
+			);
+			path = QMUIKit;
+			sourceTree = "<group>";
+		};
+		96E4713F1E6D4F59009DC6AD /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				96E471401E6D4F59009DC6AD /* QMUIGridView.h */,
+				96E471411E6D4F59009DC6AD /* QMUIGridView.m */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		96E471421E6D4F59009DC6AD /* UIKitExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				96E471431E6D4F59009DC6AD /* CALayer+QMUI.h */,
+				96E471441E6D4F59009DC6AD /* CALayer+QMUI.m */,
+				96E471451E6D4F59009DC6AD /* UIImage+QMUI.h */,
+				96E471461E6D4F59009DC6AD /* UIImage+QMUI.m */,
+			);
+			path = UIKitExtensions;
+			sourceTree = "<group>";
+		};
+		C7CF19D0C136459D9FA171AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD9513E0E967122FB18F0B04 /* libPods-QKeyboardExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D06FD49E782F07D343BBEFC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF28F011682A04ED12AF334 /* Pods-QKeyboardExample.debug.xcconfig */,
+				B9D36E5FF7258C711C1C3437 /* Pods-QKeyboardExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96A9CF8C1DB8663600C95448 /* QKeyboardExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A9CFA41DB8663600C95448 /* Build configuration list for PBXNativeTarget "QKeyboardExample" */;
+			buildPhases = (
+				1BF36EA24BF6FA77F61039CA /* [CP] Check Pods Manifest.lock */,
+				96A9CF891DB8663600C95448 /* Sources */,
+				96A9CF8A1DB8663600C95448 /* Frameworks */,
+				96A9CF8B1DB8663600C95448 /* Resources */,
+				2BA7AB26A38889A37B273FAF /* [CP] Embed Pods Frameworks */,
+				AE726A7F7EA535ECAB464B17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QKeyboardExample;
+			productName = QKeyboardExample;
+			productReference = 96A9CF8D1DB8663600C95448 /* QKeyboardExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96A9CF851DB8663600C95448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "南天";
+				TargetAttributes = {
+					96A9CF8C1DB8663600C95448 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 75CW652CU7;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 96A9CF881DB8663600C95448 /* Build configuration list for PBXProject "QKeyboardExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96A9CF841DB8663600C95448;
+			productRefGroup = 96A9CF8E1DB8663600C95448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A9CF8C1DB8663600C95448 /* QKeyboardExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96A9CF8B1DB8663600C95448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96460F811EB07E1800D20A6C /* NTAuthorize in Resources */,
+				96E4714C1E6D5167009DC6AD /* NTAuthorize in Resources */,
+				96A9CFA01DB8663600C95448 /* LaunchScreen.storyboard in Resources */,
+				96A9CF9D1DB8663600C95448 /* Assets.xcassets in Resources */,
+				96E4714E1E6D5185009DC6AD /* NTKeyboardBundle.bundle in Resources */,
+				96A9CF9B1DB8663600C95448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BF36EA24BF6FA77F61039CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BA7AB26A38889A37B273FAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QKeyboardExample/Pods-QKeyboardExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE726A7F7EA535ECAB464B17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QKeyboardExample/Pods-QKeyboardExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96A9CF891DB8663600C95448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AC7D901DB8971900C8A2BB /* QKeyboard.m in Sources */,
+				96E4714A1E6D4F59009DC6AD /* UIImage+QMUI.m in Sources */,
+				96B763831EC43C3100DCB698 /* QUIButton.m in Sources */,
+				96E471491E6D4F59009DC6AD /* CALayer+QMUI.m in Sources */,
+				96E471481E6D4F59009DC6AD /* QMUIGridView.m in Sources */,
+				96E471471E6D4F59009DC6AD /* GTMBase64.m in Sources */,
+				96A9CF981DB8663600C95448 /* ViewController.m in Sources */,
+				96E471381E6D4F1E009DC6AD /* NTKeyboardPublicMethods.m in Sources */,
+				96A9CF951DB8663600C95448 /* AppDelegate.m in Sources */,
+				964D72BE1E6EF59F00E25611 /* GameAwardView.m in Sources */,
+				96A9CF921DB8663600C95448 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96A9CF991DB8663600C95448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A9CF9A1DB8663600C95448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96A9CF9E1DB8663600C95448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A9CF9F1DB8663600C95448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96A9CFA21DB8663600C95448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96A9CFA31DB8663600C95448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96A9CFA51DB8663600C95448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF28F011682A04ED12AF334 /* Pods-QKeyboardExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: feiyue he (BA485RL2B4)";
+				DEVELOPMENT_TEAM = 75CW652CU7;
+				INFOPLIST_FILE = QKeyboardExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nantian.mfp.msalary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "910af85b-e738-4d9f-8d51-4ee63b4cb967";
+				PROVISIONING_PROFILE_SPECIFIER = ntdevelop;
+			};
+			name = Debug;
+		};
+		96A9CFA61DB8663600C95448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D36E5FF7258C711C1C3437 /* Pods-QKeyboardExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: feiyue he (BA485RL2B4)";
+				DEVELOPMENT_TEAM = 75CW652CU7;
+				INFOPLIST_FILE = QKeyboardExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nantian.mfp.msalary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9e671cbb-1701-4b0f-84f8-fcae85527de6";
+				PROVISIONING_PROFILE_SPECIFIER = ywcs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96A9CF881DB8663600C95448 /* Build configuration list for PBXProject "QKeyboardExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A9CFA21DB8663600C95448 /* Debug */,
+				96A9CFA31DB8663600C95448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A9CFA41DB8663600C95448 /* Build configuration list for PBXNativeTarget "QKeyboardExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A9CFA51DB8663600C95448 /* Debug */,
+				96A9CFA61DB8663600C95448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96A9CF851DB8663600C95448 /* Project object */;
+}

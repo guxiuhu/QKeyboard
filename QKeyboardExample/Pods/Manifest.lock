@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (1.0.1)
+  - PopupKit (3.0.1)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - Masonry
+  - PopupKit
+  - YYText
+
+SPEC CHECKSUMS:
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  PopupKit: 84efd175d15341b2ad22f20a60225cf2fefcab68
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 4457f313ea5819812d6be7fd630e66e2dabb15be
+
+COCOAPODS: 1.1.1
